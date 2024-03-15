@@ -1,0 +1,74 @@
+/* Reset style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Header */
+header {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Main content */
+main {
+  padding: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Responsive layout */
+@media only screen and (max-width: 768px) {
+  /* Thay đổi layout cho màn hình nhỏ hơn */
+
+  header {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
